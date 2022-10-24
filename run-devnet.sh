@@ -13,7 +13,7 @@ ln -fs "$LOGS" current.log
 if [ -f sui-node ]; then
   BIN=./sui-node
 else
-  BIN="$HOME/dev/sui/target/debug/sui-node"
+  BIN="$HOME/dev/github/sui/target/debug/sui-node"
 fi
 
 echo "Signing $BIN"

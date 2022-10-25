@@ -1,0 +1,8 @@
+# all log files
+fullnode-log*
+current.log
+
+# genesis file 
+genesis.blob
+
+.DS_Store
